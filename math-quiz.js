@@ -19,3 +19,9 @@ function generateMathProblem() {
             answer = num1 * num2;
             break;
     }
+
+    return {
+        question: `${num1} ${operator} ${num2}`,
+        answer: answer
+    };
+}
