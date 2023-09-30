@@ -25,3 +25,7 @@ function generateMathProblem() {
         answer: answer
     };
 }
+
+function startMathQuiz() {
+    let score = 0;
+    const totalQuestions = 5; // Set the number of questions
