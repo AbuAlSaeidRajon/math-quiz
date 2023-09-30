@@ -41,3 +41,8 @@ function startMathQuiz() {
             console.log(`Incorrect. The correct answer is ${problem.answer}.`);
         }
     }
+
+    console.log(`Quiz complete. You got ${score} out of ${totalQuestions} questions correct.`);
+}
+
+startMathQuiz();
