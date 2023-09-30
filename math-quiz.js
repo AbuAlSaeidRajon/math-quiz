@@ -29,3 +29,7 @@ function generateMathProblem() {
 function startMathQuiz() {
     let score = 0;
     const totalQuestions = 5; // Set the number of questions
+
+    for (let i = 0; i < totalQuestions; i++) {
+        let problem = generateMathProblem();
+        let userAnswer = prompt(`Question ${i + 1}: What is ${problem.question}?`);
